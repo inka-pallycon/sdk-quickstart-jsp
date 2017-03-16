@@ -44,7 +44,7 @@ package rule 연동 response 규격에 맞춰서 값을 생성.
 </table>
 ```
 
-**Return ***string*
+**Return** *string*
 
 *Example*
 ```
@@ -71,14 +71,14 @@ package rule 연동 response 규격에 맞춰서 값을 생성.
 #### *public JSONObject* getPackageInfo()
 package 연동 response 규격을 반환한다.
 
-**Return ***JSONObject*
+**Return** *JSONObject*
 
-#### *public JSONObject** *getLicenseRule()
+#### *public JSONObject* getLicenseRule()
 License 연동 response 규격을 반환한다.
 
-**Return ***JSONObject*
+**Return** *JSONObject*
 
-#### *public string *parserDecode(String params)
+#### *public string* parserDecode(String params)
 파라미터로 받은 AES256 암호화 된 값을 복호화 하여 반환한다.
 
 **Parameter**
@@ -97,7 +97,7 @@ License 연동 response 규격을 반환한다.
 </table>
 ```
 
-**Return ***JSONObject*
+**Return** *JSONObject*
 
 *Example*
 ```
@@ -115,7 +115,7 @@ License 연동 response 규격을 반환한다.
 </table>
 ```
 
-#### *public string *parserEncode(String params)
+#### *public string* parserEncode(String params)
 파라미터로 받은 String 값을 암호화 하여 반환한다.
 
 **Parameter**
@@ -134,7 +134,7 @@ License 연동 response 규격을 반환한다.
 </table>
 ```
 
-**Return ***String*
+**Return** *String*
 
 *Example*
 ```
@@ -154,7 +154,7 @@ License 연동 response 규격을 반환한다.
 </table>
 ```
 
-#### *public **string *createLicenseRule (GatewayDTO gatewayDTO)
+#### *public string* createLicenseRule (GatewayDTO gatewayDTO)
 라이센스 발급에 필요한 값을 set 하여 JSON 규격에 맞게 파싱한다.
 
 **Parameter**
@@ -173,7 +173,7 @@ License 연동 response 규격을 반환한다.
 </table>
 ```
 
-**Return ***String*
+**Return** *String*
 
 *Example*
 ```
@@ -200,91 +200,91 @@ gateway 와의 통신에 필요한 data 객체. getter와 setter로 구성되어
 
 #### **_Getter_**
 
-*public String ***getCek***()*
+*public String* **getCek***()*
 
-*public String ***getCenc_iv***()*
+*public String* **getCenc_iv***()*
 
-*public String ***getCenc_key***()*
+*public String* **getCenc_key***()*
 
-*public String ***getCid***()*
+*public String* **getCid***()*
 
-*public int ***getControl_hdcp***()*
+*public int* **getControl_hdcp***()*
 
-*public String ***getDevice_id***()*
+*public String* **getDevice_id***()*
 
-*public int ***getDuration***()*
+*public int* **getDuration***()*
 
-*public String ***getExpire_date***()*
+*public String* **getExpire_date***()*
 
-*public String ***getFile_name***()*
+*public String* **getFile_name***()*
 
-*public String ***getFile_path***()*
+*public String* **getFile_path***()*
 
-*public String ***getHls_iv***()*
+*public String* **getHls_iv***()*
 
-*public String ***getHls_key***()*
+*public String* **getHls_key***()*
 
-*public String ***getKey_id***()*
+*public String* **getKey_id***()*
 
-*public String ***getNonce***()*
+*public String* **getNonce***()*
 
-*public String ***getSite_id***()*
+*public String* **getSite_id***()*
 
-*public String ***getUser_id***()*
+*public String* **getUser_id***()*
 
-*public boolean ***isAllow_external_display***()*
+*public boolean* **isAllow_external_display***()*
 
-*public boolean ***isAllow_mobile_abnormal_device***()*
+*public boolean* **isAllow_mobile_abnormal_device***()*
 
-*public boolean ***isHardware_drm***()*
+*public boolean* **isHardware_drm***()*
 
-*public boolean ***isLimit***()*
+*public boolean* **isLimit***()*
 
-*public boolean ***isPersistent***()*
+*public boolean* **isPersistent***()*
 
 #### *Setter*
 
-*public void ***setAllow_external_display(boolean allow_external_display)**
+*public void* **setAllow_external_display(boolean allow_external_display)**
 
-*public void ***setAllow_mobile_abnormal_device(boolean allow_mobile_abnormal_device)**
+*public void* **setAllow_mobile_abnormal_device(boolean allow_mobile_abnormal_device)**
 
-*public void ***setCek(String cek)**
+*public void* **setCek(String cek)**
 
-*public void ***setCenc_iv(String cnec_iv)**
+*public void* **setCenc_iv(String cnec_iv)**
 
-*public void ***setCenc_key(String cenc_key)**
+*public void* **setCenc_key(String cenc_key)**
 
-*public void ***setCid(String cid)**
+*public void* **setCid(String cid)**
 
-*public void ***setControl_hdcp(String control_hdcp)**
+*public void* **setControl_hdcp(String control_hdcp)**
 
-*public void ***setDevice_id(String device_id)**
+*public void* **setDevice_id(String device_id)**
 
-*public void ***setDuration(int duration)**
+*public void* **setDuration(int duration)**
 
-*public void ***setExpire_date(String expire_data)**
+*public void* **setExpire_date(String expire_data)**
 
-*public void ***setFile_name(String filr_name)**
+*public void* **setFile_name(String filr_name)**
 
-*public void ***setFile_path(String file_path)**
+*public void* **setFile_path(String file_path)**
 
-*public void ***setHardware_drm(boolean hardware_drm)**
+*public void* **setHardware_drm(boolean hardware_drm)**
 
-*public void ***setHls_iv(String hls_iv)**
+*public void* **setHls_iv(String hls_iv)**
 
-*public void ***setHls_key(String hls_key)**
+*public void* **setHls_key(String hls_key)**
 
-*public void ***setKey_id(String key_id)**
+*public void* **setKey_id(String key_id)**
 
-*public void ***setLimit(boolean limit)**
+*public void* **setLimit(boolean limit)**
 
-*public void ***setNonce(String nonce)**
+*public void* **setNonce(String nonce)**
 
-*public void ***setPersistent(boolean persistent)**
+*public void* **setPersistent(boolean persistent)**
 
-*public void ***setSite_id(String site_id)**
+*public void* **setSite_id(String site_id)**
 
-*public void ***setUser_id(String user_id)**
+*public void* **setUser_id(String user_id)**
 
 ## Class AESCrypto256
 aes256(CBC) 암호화 모듈.
@@ -294,7 +294,7 @@ aes256(CBC) 암호화 모듈.
 
 ### 2. method
 
-#### 	*public  *AESCrypto256(String key, String initialVector )
+#### 	*public* AESCrypto256(String key, String initialVector )
 생성자, 공용으로 사용될 key 와 initialVector 값을 셋팅. 
 
 **Parameter**
@@ -318,7 +318,7 @@ aes256(CBC) 암호화 모듈.
 </table>
 ```
 
-#### public *string *encrypt(value )
+#### public *string* encrypt(value )
 aes256 (CBC) encrypt -> base64 encode 된 값을  리턴한다.
 
 **Parameter**
@@ -337,9 +337,9 @@ aes256 (CBC) encrypt -> base64 encode 된 값을  리턴한다.
 </table>
 ```
 
-**Return ***string*
+**Return** *string*
 
-#### public *string *decrypt( value )
+#### public *string* decrypt( value )
 base64 decode -> aes256 (CBC) decrypt -> 된 값을  리턴한다.
 
 **Parameter**
@@ -358,5 +358,5 @@ base64 decode -> aes256 (CBC) decrypt -> 된 값을  리턴한다.
 </table>
 ```
 
-**Return ***string*
+**Return** *string*
 
