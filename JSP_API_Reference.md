@@ -200,47 +200,47 @@ gateway 와의 통신에 필요한 data 객체. getter와 setter로 구성되어
 
 #### **_Getter_**
 
-*public String* **getCek***()*
+*public String* **getCek**()
 
-*public String* **getCenc_iv***()*
+*public String* **getCenc_iv**()
 
-*public String* **getCenc_key***()*
+*public String* **getCenc_key**()
 
-*public String* **getCid***()*
+*public String* **getCid**()
 
-*public int* **getControl_hdcp***()*
+*public int* **getControl_hdcp**()
 
-*public String* **getDevice_id***()*
+*public String* **getDevice_id**()
 
-*public int* **getDuration***()*
+*public int* **getDuration**()
 
-*public String* **getExpire_date***()*
+*public String* **getExpire_date**()
 
-*public String* **getFile_name***()*
+*public String* **getFile_name**()
 
-*public String* **getFile_path***()*
+*public String* **getFile_path**()
 
-*public String* **getHls_iv***()*
+*public String* **getHls_iv**()
 
-*public String* **getHls_key***()*
+*public String* **getHls_key**()
 
-*public String* **getKey_id***()*
+*public String* **getKey_id**()
 
-*public String* **getNonce***()*
+*public String* **getNonce**()
 
-*public String* **getSite_id***()*
+*public String* **getSite_id**()
 
-*public String* **getUser_id***()*
+*public String* **getUser_id**()
 
-*public boolean* **isAllow_external_display***()*
+*public boolean* **isAllow_external_display**()
 
-*public boolean* **isAllow_mobile_abnormal_device***()*
+*public boolean* **isAllow_mobile_abnormal_device**()
 
-*public boolean* **isHardware_drm***()*
+*public boolean* **isHardware_drm**()
 
-*public boolean* **isLimit***()*
+*public boolean* **isLimit**()
 
-*public boolean* **isPersistent***()*
+*public boolean* **isPersistent**()
 
 #### *Setter*
 
