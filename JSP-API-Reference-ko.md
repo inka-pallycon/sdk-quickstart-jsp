@@ -29,6 +29,7 @@ gateway로 요청된 데이터의 파싱과 응답 데이터 생성에 사용�
 패키징 룰 연동 규격에 따른 응답 데이터를 생성
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | GatewayDTO | gatewayDTO | 패키징 룰을 설정하는 DTO 객체 |
@@ -68,6 +69,7 @@ License 연동 response 규격을 반환한다.
 파라미터로 받은 AES256 암호화 된 값을 복호화 하여 반환한다.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | params | 복호화할 값 |
@@ -91,6 +93,7 @@ jsonObject = encrypter.parserDecode(sData);
 파라미터로 받은 String 값을 암호화 하여 반환한다.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | params | 암호화할 값 |
@@ -116,6 +119,7 @@ System.out.println(gatewayRule.parserEncode(jsonObject.toString()));
 라이센스 발급에 필요한 값을 set 하여 JSON 규격에 맞게 파싱한다.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | GatewayDTO | gatewayDTO | 라이선스 발급에 필요한 값이 세팅되어 있는 객체 |
@@ -242,6 +246,7 @@ aes256(CBC) 암호화 모듈.
 생성자, 공용으로 사용될 key 와 initialVector 값을 셋팅
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | key | 암호화를 풀기 위한 key 값 |
@@ -251,6 +256,7 @@ aes256(CBC) 암호화 모듈.
 aes256 (CBC) encrypt -> base64 encode 된 값을  리턴한다.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | value | 암호화할 데이터 |
@@ -261,6 +267,7 @@ aes256 (CBC) encrypt -> base64 encode 된 값을  리턴한다.
 base64 decode -> aes256 (CBC) decrypt된 값을 리턴한다.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | value | 복호화할 데이터 |
