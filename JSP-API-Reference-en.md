@@ -29,6 +29,7 @@ Generates aes encryption/decryption object using key and iv values.
 Creates response data according to packaging rule integration specification
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | GatewayDTO | gatewayDTO | A DTO object that sets the package rule |
@@ -68,6 +69,7 @@ Returns response data for license integration.
 Decrypts parameter data which is encypted by AES256.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | params | data to be decrypted |
@@ -91,6 +93,7 @@ jsonObject = encrypter.parserDecode(sData);
 Encrypts data input by parameter.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | params | data to be encrypted |
@@ -116,6 +119,7 @@ System.out.println(gatewayRule.parserEncode(jsonObject.toString()));
 Sets the required value for license issuance and parse it according to JSON spec.
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | GatewayDTO | gatewayDTO | object set for issuing licenses |
@@ -242,6 +246,7 @@ aes256(CBC) encryption module
 Set key and initialVector values to be used in common
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | key | key value for decryption |
@@ -251,6 +256,7 @@ Set key and initialVector values to be used in common
 aes256 (CBC) encrypt -> base64 encode -> return result
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | value | data to be encrypted |
@@ -261,6 +267,7 @@ aes256 (CBC) encrypt -> base64 encode -> return result
 base64 decode -> aes256 (CBC) decrypt -> return result
 
 **Parameter**
+
 | type | name | description |
 |:---|:---|:-----|
 | String | value | data to be decrypted |
