@@ -2,7 +2,7 @@
 
 **( Version 1.0, 2017.01.23 )**
 
-## 1. 개요
+## 1. Overview
 
 ![image alt text](image_0.png)
 
